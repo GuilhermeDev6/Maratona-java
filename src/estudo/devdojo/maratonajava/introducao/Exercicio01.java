@@ -16,6 +16,6 @@ public class Exercicio01 {
         } else {
             afterTax = tax3;
         }
-        System.out.println("Seu salario após os impostos é: "+afterTax);
+        System.out.println("Seu salario após os impostos é: " + afterTax);
     }
 }
