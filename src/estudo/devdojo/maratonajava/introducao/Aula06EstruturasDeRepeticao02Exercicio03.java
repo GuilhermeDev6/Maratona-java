@@ -1,6 +1,6 @@
 package estudo.devdojo.maratonajava.introducao;
 
-public class Aula05EstruturasDeRepeticao02Exercicio03 {
+public class Aula06EstruturasDeRepeticao02Exercicio03 {
     public static void main(String[] args) {
        /* //Imprima todos os numeros pares de 0 até 1000
         int par = 0;
