@@ -19,8 +19,16 @@ public class Aula08ArraysMultidimensionais01 {
         days[2][2] = 31;
 
         for (int i = 0; i < days.length; i++) {
-            for (int j = 0; j < days[0].length; j++) {
+            for (int j = 0; j < days[i].length; j++) {
                 System.out.println(days[i][j]);
+            }
+        }
+
+        System.out.println("-----------Foreach------------");
+
+        for (int[] arrBase : days) {
+            for (int num : arrBase) {
+                System.out.println(num);
             }
         }
     }
