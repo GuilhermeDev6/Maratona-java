@@ -9,4 +9,8 @@ public class Calculadora {
         System.out.println(10-5);
     }
 
+    public void timesTwoNumbers(int num1, int num2){
+        System.out.println(num1 * num2);
+    }
+
 }
